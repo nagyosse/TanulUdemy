@@ -5,3 +5,5 @@ Megyek holnap labdázni
 Megyek Játszani
 veszek egy autot
 adok egy füzetet
+make soup
+make pizza
