@@ -7,3 +7,4 @@ veszek egy autot
 adok egy füzetet
 make soup
 make pizza
+clean the code
