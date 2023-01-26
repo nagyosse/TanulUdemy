@@ -1,10 +1,10 @@
-def get_todo(filepath):
+def get_todo(filepath="todo1.txt"):
     with open(filepath, 'r') as file_local:
         todos_local = file_local.readlines()
     return todos_local
 
 
-def write_todos(filepath, todos_arg):
+def write_todos(todos_arg, filepath="todo1.txt"):
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
 
@@ -19,19 +19,19 @@ while True:
         # with open('todo1.txt', 'r') as file:
         # todos = file.readlines()
 
-        todos = get_todo("todo1.txt")
+        todos = get_todo()
         todos.append(todo + '\n')
 
         # File read from the todos variables
         # with open('todo1.txt', 'w') as file:
         #    file.writelines(todos)
 
-        write_todos("todo1.txt", todos)
+        write_todos(todos)
 
     elif user_action.startswith('show'):
         # Files read in the todos variable
 
-        todos = get_todo("todo1.txt")
+        todos = get_todo()
 
         for index, item in enumerate(todos):
             item = item.strip('\n')
@@ -43,12 +43,12 @@ while True:
             number = int(user_action[5:])
             number = number - 1
 
-            todos = get_todo("todo1.txt")
+            todos = get_todo()
 
             new_todo = input("Enter new todo: ")
             todos[number] = new_todo + '\n'
 
-            write_todos("todo1.txt", todos)
+            write_todos(todos)
 
         except ValueError:
             continue
@@ -57,13 +57,13 @@ while True:
         try:
             number = int(user_action[9:])
 
-            todos = get_todo("todo1.txt")
+            todos = get_todo()
 
             index = number - 1
             todo_to_remove = todos[index].strip('\n')
             todos.pop(index)
 
-            write_todos("todo1.txt", todos)
+            write_todos(todos)
 
             message = f"Todo {todo_to_remove} was removed from the list."
             print(message)
