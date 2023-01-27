@@ -1,5 +1,5 @@
-# from functions import get_todo, write_todos
-from todo import functions
+# from functions import get_todo, write_tod
+import functions
 
 while True:
     user_action = input("Type add, show, edit, complete or exit:")
