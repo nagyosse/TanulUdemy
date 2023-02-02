@@ -1,10 +1,10 @@
-focizni megyek
+foci megyek
 Tanulok Angol
 Tanulok Pythont
-Megyek holnap labdázni
-Megyek Játszani
+Megyek holnap labdï¿½zni
+Megyek Jï¿½tszani
 veszek egy autot
-adok egy füzetet
+adok egy fï¿½zetet
 make soup
 make pizza
 clean the code
