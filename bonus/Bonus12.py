@@ -1,24 +1,6 @@
-feet_inches = input("Enter feet and inches: ")
-
-
-def parse(feet_inches):
-    parts = feet_inches.split(" ")
-    feet = float(parts[0])
-    inches = float(parts[1])
-    return {"feet": feet, "inches": inches}
-
-
-def convert(feet, inches):
-    meters = feet * 0.3048 + inches * 0.0254
-    return meters
-
-
-parsed = parse(feet_inches)
-
-result = convert(parsed['feet'], parsed['inches'])
-
-print(f"{parsed['feet']} feet and {parsed['inches']} is equel to {result}")
-if result < 1:
-    print("Kid is too small.")
-else:
-    print("Kid can use the slide.")
+[{"question_text":"What are dolphins",
+  "alternatives": ["Amphibians", "Fish", "Mammals", "Birds"],
+  "correct_answer":3},
+{"question_text":"What occupies most of the Earth's surface",
+ "alternatives": ["Land", "Water"],
+ "correct_answer":2}]
