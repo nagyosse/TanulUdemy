@@ -9,3 +9,5 @@ make soup
 make pizza
 clean the code
 Megyek haza
+Tobi gyogyszer
+orvosi vizsgalat

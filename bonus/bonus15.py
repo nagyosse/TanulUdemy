@@ -5,7 +5,6 @@ with open("file/questions.json", "r") as file:
 
 data = json.loads(content)
 
-
 for question in data:
     print(question["question_text"])
     for index, alternative in enumerate(question["alternatives"]):
@@ -22,7 +21,7 @@ for index, question in enumerate(data):
         result = "Wrong Answer"
 
     message = f"{result} {index + 1} - Your answer : {question['user_choice']}, " \
-                f"Correct answer: {question['correct_answer']}"
+              f"Correct answer: {question['correct_answer']}"
     print(message)
 
 print(score, "/", len(data))
