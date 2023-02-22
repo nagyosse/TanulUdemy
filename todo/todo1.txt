@@ -1,13 +1,7 @@
-foci megyek
-Tanulok Angol
-Tanulok Pythont
-Megyek holnap labd�zni
-Megyek J�tszani
-veszek egy autot
-adok egy f�zetet
-make soup
-make pizza
-clean the code
-Megyek haza
-Tobi gyogyszer
-orvosi vizsgalat
+Lacika nem szeret biciklizni csak inni
+anyucika
+apucika dolgozik most nem
+Lacika tanul 
+pythonLacika tanul
+most megyek edzeni
+Most megyek enni
