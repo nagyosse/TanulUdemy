@@ -1,6 +1,11 @@
 import functions
 import PySimpleGUI as sg
 import time
+import os
+
+if not os.path.exists("todo1.txt"):
+    with open("todo1.txt", "w") as file:
+        pass
 
 sg.theme("Black")
 clock = sg.Text('', key="clock")
